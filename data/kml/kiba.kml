@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>木場三好公園住宅.kml</name>
+	<Style id="sn_1353570628-145068_5">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/1353570628-145068_5.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_三好住宅0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/三好住宅.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_m396_09">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_m396_09</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_m396_09</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_1353570628-145068_5">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_1353570628-145068_5</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_1353570628-145068_5</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_m396_09">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/m396_09.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_m396_09">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/m396_09.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_三好住宅0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_三好住宅0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_三好住宅0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_三好住宅0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/三好住宅.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_1353570628-145068_5">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/木場公園三好住宅/1353570628-145068_5.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>木場三好公園住宅</name>
+		<open>1</open>
+		<description>UR都市機構が造成
+下町らしさとモダニズムを兼ね備えた斬新なデザインが人気
+現存する</description>
+		<Placemark>
+			<name>木場公園三好住宅</name>
+			<LookAt>
+				<longitude>139.8050943458149</longitude>
+				<latitude>35.67876550872905</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002581674358325747</heading>
+				<tilt>6.868292084046318</tilt>
+				<range>972.2558846687602</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1982</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_1353570628-145068_5</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.8050943458149,35.67876550872905,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>木場三好公園住宅</name>
+			<LookAt>
+				<longitude>139.8050914840122</longitude>
+				<latitude>35.67876019045868</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002581518911578188</heading>
+				<tilt>6.86887227767537</tilt>
+				<range>1039.214848867061</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1982</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_三好住宅0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.8050914840122,35.67876019045868,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>木場三好公園住宅</name>
+			<LookAt>
+				<longitude>139.805094345316</longitude>
+				<latitude>35.67876550858036</latitude>
+				<altitude>0</altitude>
+				<heading>0.0002581637806977875</heading>
+				<tilt>6.868989658536633</tilt>
+				<range>972.2559025788917</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1982</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_m396_09</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.805094345316,35.67876550858036,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

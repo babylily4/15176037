@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>タウンハウス諏訪.kml</name>
+	<Style id="sh_3d186720">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/3d186720.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_82-2naga">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_82-2naga</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_82-2naga</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_3d186720">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/3d186720.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_79-1hati2">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_79-1hati2</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_79-1hati2</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_79-1hati2">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/79-1hati2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_3d186720">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_3d186720</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_3d186720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_79-1hati2">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/79-1hati2.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_82-2naga">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/82-2naga.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_82-2naga">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/タウンハウス諏訪/82-2naga.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>タウンハウス諏訪</name>
+		<open>1</open>
+		<description>日本住宅公団が造成
+タウンハウス第一号</description>
+		<Placemark>
+			<name>タウンハウス諏訪</name>
+			<LookAt>
+				<longitude>139.4539574452566</longitude>
+				<latitude>35.62400994107688</latitude>
+				<altitude>0</altitude>
+				<heading>9.342068335355306e-09</heading>
+				<tilt>0</tilt>
+				<range>1050.784549983023</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1979</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_3d186720</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4539574452566,35.62400994107688,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タウンハウス諏訪</name>
+			<LookAt>
+				<longitude>139.4537179943519</longitude>
+				<latitude>35.62422490968966</latitude>
+				<altitude>5.178156481853447</altitude>
+				<heading>-0.5239435734858473</heading>
+				<tilt>45.03490633199902</tilt>
+				<range>224.1725926907649</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1979</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_79-1hati2</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4537179943519,35.62422490968966,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>タウンハウス諏訪</name>
+			<LookAt>
+				<longitude>139.4537942768002</longitude>
+				<latitude>35.62433849359162</latitude>
+				<altitude>10.59511267214595</altitude>
+				<heading>-0.5238995418904311</heading>
+				<tilt>45.03655339163173</tilt>
+				<range>483.253673957838</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1979</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_82-2naga</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4537942768002,35.62433849359162,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>百草団地.kml</name>
+	<Style id="sn_mogusa_0100">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_010.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mogusa_011">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_011.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_mogusa_006">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_006.jpg</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mogusa_0100">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mogusa_0100</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mogusa_0100</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_mogusa_0100">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_010.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_mogusa_006">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_006.jpg</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_mogusa_011">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mogusa_011</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mogusa_011</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_mogusa_006">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_mogusa_006</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_mogusa_006</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_mogusa_011">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/百草団地/mogusa_011.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>百草団地</name>
+		<open>1</open>
+		<description>日本住宅公団が造成
+丘陵地の地形をそのまま生かした設計で
+団地設計関係では有名
+現存する</description>
+		<Placemark>
+			<name>百草団地</name>
+			<LookAt>
+				<longitude>139.4193186822759</longitude>
+				<latitude>35.65085524369253</latitude>
+				<altitude>0</altitude>
+				<heading>-3.357733841103805e-09</heading>
+				<tilt>0</tilt>
+				<range>1055.24787575068</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1969</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_mogusa_006</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4193186822759,35.65085524369253,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>百草団地</name>
+			<LookAt>
+				<longitude>139.4193186828943</longitude>
+				<latitude>35.65085524382371</latitude>
+				<altitude>0</altitude>
+				<heading>-2.997252954061411e-09</heading>
+				<tilt>0</tilt>
+				<range>1055.247876588306</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1969</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_mogusa_0100</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4193186828943,35.65085524382371,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>百草団地</name>
+			<LookAt>
+				<longitude>139.4193186828943</longitude>
+				<latitude>35.65085524382371</latitude>
+				<altitude>0</altitude>
+				<heading>-2.997252954061411e-09</heading>
+				<tilt>0</tilt>
+				<range>1055.247876588306</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1969</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_mogusa_011</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.4193186828943,35.65085524382371,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>晴海高層アパート.kml</name>
+	<Style id="sn_晴海2s">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/晴海2s.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_ダウンロード0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/ダウンロード.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_ダウンロード0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/ダウンロード.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_Harumi_Island_Triton_Square_020">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_Harumi_Island_Triton_Square_020</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_Harumi_Island_Triton_Square_020</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_晴海2s">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/晴海2s.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_Harumi_Island_Triton_Square_020">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/Harumi_Island_Triton_Square_02.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_ダウンロード0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_ダウンロード0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_ダウンロード0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_晴海2s">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_晴海2s</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_晴海2s</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sh_Harumi_Island_Triton_Square_020">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/晴海高層アパート/Harumi_Island_Triton_Square_02.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>晴海高層アパート</name>
+		<open>1</open>
+		<description>日本住宅公団が造成
+将来の高層化に向けての試作品と言えるもの
+現在の晴海アイランドトリトンスクエア</description>
+		<Placemark>
+			<name>晴海高層アパート</name>
+			<LookAt>
+				<longitude>139.7850408736813</longitude>
+				<latitude>35.65919645358503</latitude>
+				<altitude>0</altitude>
+				<heading>3.177745933624317e-08</heading>
+				<tilt>0</tilt>
+				<range>1545.004430635955</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1957</begin>
+				<end>1997</end>
+			</TimeSpan>
+			<styleUrl>#msn_Harumi_Island_Triton_Square_020</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7850408736813,35.65919645358503,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>晴海高層アパート</name>
+			<LookAt>
+				<longitude>139.785040874557</longitude>
+				<latitude>35.65919645339652</latitude>
+				<altitude>0</altitude>
+				<heading>3.228793836261806e-08</heading>
+				<tilt>0</tilt>
+				<range>1545.004461934671</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1957</begin>
+				<end>1997</end>
+			</TimeSpan>
+			<styleUrl>#msn_晴海2s</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.785040874557,35.65919645339652,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>晴海高層アパート</name>
+			<LookAt>
+				<longitude>139.785040874557</longitude>
+				<latitude>35.65919645339652</latitude>
+				<altitude>0</altitude>
+				<heading>3.228793836261806e-08</heading>
+				<tilt>0</tilt>
+				<range>1545.004461934671</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1957</begin>
+				<end>1997</end>
+			</TimeSpan>
+			<styleUrl>#msn_ダウンロード0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.785040874557,35.65919645339652,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

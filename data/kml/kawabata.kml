@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>大川端リバーシティ21.kml</name>
+	<StyleMap id="msn_OkawabataRiverCity21_from_EitaiBridge0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_OkawabataRiverCity21_from_EitaiBridge0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_OkawabataRiverCity21_from_EitaiBridge0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_pic_index_199002">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_pic_index_199002</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_pic_index_199002</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_OkawabataRiverCity21_from_EitaiBridge0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/OkawabataRiverCity21_from_EitaiBridge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_OkawabataRiverCity21_from_EitaiBridge0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/OkawabataRiverCity21_from_EitaiBridge.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_280px-Sumida_river06s38720">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/280px-Sumida_river06s3872.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_280px-Sumida_river06s38720">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/280px-Sumida_river06s3872.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_pic_index_199002">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/pic_index_199002.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_280px-Sumida_river06s38720">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_280px-Sumida_river06s38720</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_280px-Sumida_river06s38720</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_pic_index_199002">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/川端リバーシティ/pic_index_199002.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>大川端リバーシティ21</name>
+		<open>1</open>
+		<description>UR都市機構が造成
+個々の建物の高さが少しずつ違う
+隅田川との調和としての景観がよく取り上げられる
+現存する</description>
+		<Placemark>
+			<name>大川端リバーシティ21</name>
+			<LookAt>
+				<longitude>139.7851776995643</longitude>
+				<latitude>35.67089804975317</latitude>
+				<altitude>0</altitude>
+				<heading>-2.54078610728713e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000075014113</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1986</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_280px-Sumida_river06s38720</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7851776995643,35.67089804975317,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大川端リバーシティ21</name>
+			<LookAt>
+				<longitude>139.7851776993502</longitude>
+				<latitude>35.67089805029534</latitude>
+				<altitude>0</altitude>
+				<heading>-3.789122014214746e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000080036923</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1986</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_OkawabataRiverCity21_from_EitaiBridge0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7851776993502,35.67089722222222,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>大川端リバーシティ21</name>
+			<LookAt>
+				<longitude>139.7851776993502</longitude>
+				<latitude>35.67089805029534</latitude>
+				<altitude>0</altitude>
+				<heading>-3.789122014214746e-10</heading>
+				<tilt>0</tilt>
+				<range>1000.000080036923</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1986</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_pic_index_199002</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.7851776993502,35.67089805029534,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>

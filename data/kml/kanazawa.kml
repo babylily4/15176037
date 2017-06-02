@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
+<Document>
+	<name>金沢シーサイドタウン並木団地.kml</name>
+	<StyleMap id="msn_m1270_010">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_m1270_010</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_m1270_010</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_金沢シーサイドタウン並木団地0">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/金沢シーサイドタウン並木団地.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sn_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_金沢シーサイドタウン並木団地0">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/金沢シーサイドタウン並木団地.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large.png</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<StyleMap id="msn_金沢シーサイドタウン並木団地0">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_金沢シーサイドタウン並木団地0</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_金沢シーサイドタウン並木団地0</styleUrl>
+		</Pair>
+	</StyleMap>
+	<StyleMap id="msn_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large">
+		<Pair>
+			<key>normal</key>
+			<styleUrl>#sn_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large</styleUrl>
+		</Pair>
+		<Pair>
+			<key>highlight</key>
+			<styleUrl>#sh_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large</styleUrl>
+		</Pair>
+	</StyleMap>
+	<Style id="sn_m1270_010">
+		<IconStyle>
+			<scale>1.1</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/m1270_01.jpg</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Style id="sh_m1270_010">
+		<IconStyle>
+			<scale>1.3</scale>
+			<Icon>
+				<href>/Applications/MAMP/htdocs/cesium03/data/images/金沢シーサイド並木団地/m1270_01.jpg</href>
+			</Icon>
+		</IconStyle>
+	</Style>
+	<Folder>
+		<name>金沢シーサイドタウン並木団地</name>
+		<open>1</open>
+		<description>UR都市機構が造成
+槇文彦が設計
+日本のアーバンデザインの先駆けとも言える街</description>
+		<Placemark>
+			<name>金沢シーサイドタウン並木団地</name>
+			<LookAt>
+				<longitude>139.6380127143721</longitude>
+				<latitude>35.36648210986002</latitude>
+				<altitude>0</altitude>
+				<heading>-1.684739814771225e-11</heading>
+				<tilt>0</tilt>
+				<range>1004.937675342765</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1978</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_5793b2a4bcf08f71f2d35a7b7cda64e1_property_picture_374_large</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6380127143721,35.36648210986002,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢シーサイド並木団地</name>
+			<LookAt>
+				<longitude>139.6380201546945</longitude>
+				<latitude>35.36650811821831</latitude>
+				<altitude>0</altitude>
+				<heading>-3.22830244056352e-08</heading>
+				<tilt>0</tilt>
+				<range>1175.227395393053</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1978</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_m1270_010</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6380201546945,35.36650811821831,0</coordinates>
+			</Point>
+		</Placemark>
+		<Placemark>
+			<name>金沢シーサイド並木団地</name>
+			<LookAt>
+				<longitude>139.6380127140037</longitude>
+				<latitude>35.3664821095514</latitude>
+				<altitude>0</altitude>
+				<heading>-2.300717839930264e-10</heading>
+				<tilt>0</tilt>
+				<range>1004.937675198354</range>
+				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+			</LookAt>
+			<TimeSpan id="ID">
+				<begin>1978</begin>
+				<end>2017</end>
+			</TimeSpan>
+			<styleUrl>#msn_金沢シーサイドタウン並木団地0</styleUrl>
+			<Point>
+				<gx:drawOrder>1</gx:drawOrder>
+				<coordinates>139.6380127140037,35.3664821095514,0</coordinates>
+			</Point>
+		</Placemark>
+	</Folder>
+</Document>
+</kml>
