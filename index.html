@@ -4,9 +4,9 @@
 <head>
 	<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1">
-	<meta name="description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta name="description" content="Cesiumを使った世界一美しい団地図鑑の可視化" />
 	<meta property="og:image" content="data/hinoshi.png" />
-	<meta property="og:description" content="Cesiumを使った日野市オープンデータ可視化のサンプルです" />
+	<meta property="og:description" content="Cesiumを使った世界一美しい団地図鑑の可視化" />
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, minimum-scale=1, user-scalable=no">
 	<title>世界一美しい団地図鑑</title>
 	<link rel="alternate" href="http://hiroshima.archiving.jp/index_en.html" hreflang="en" />
@@ -119,7 +119,7 @@
 		var cesiumTerrainProviderMeshes = new Cesium.CesiumTerrainProvider({
 			url: '//assets.agi.com/stk-terrain/world',
 			//海を表示しないときは以下をfalseに
-			requestWaterMask: true,
+			requestWaterMask: false,
 			requestVertexNormals: true
 		});
 		viewer.terrainProvider = cesiumTerrainProviderMeshes;
@@ -147,8 +147,8 @@
 
 		//視点を登録：　緯度，経度，注視点の高さ，傾き，視点の高さ
 
-		viewPointsArray[0] = new viewPoints("首都大", 35.661, 139.3657347, 0, -45, 1000);
-		viewPointsArray[1] = new viewPoints("日野市", 35.654, 139.394, 0, -89, 15000);
+		viewPointsArray[0] = new viewPoints("わたしたち", 35.661, 139.3657347, 0, -45, 1000);
+		viewPointsArray[1] = new viewPoints("日野付近", 35.654, 139.394, 0, -89, 15000);
 		viewPointsArray[2] = new viewPoints("初期視点", 35.654, 139.394, 0, -35, 5000);
 
 		//視点メニューを作成
@@ -233,24 +233,24 @@
 
 		var kmlDataArray = [];
 		//KMLデータを登録．kmzでもOK
-		kmlDataArray[0] = new kmlData("同潤会同潤会代官山アパート", 'date/kml/daikannyama.kml');
-		kmlDataArray[1] = new kmlData("都営高輪アパート", 'date/kml/takanawa.kml');
-		kmlDataArray[2] = new kmlData("阿佐ヶ谷住宅", 'date/kml/asagaya.kml');
-		kmlDataArray[3] = new kmlData("晴海台高層アパート", 'date/kml/harumi.kml');
-		kmlDataArray[4] = new kmlData("赤羽台団地", 'date/kml/akabane.kml');
-		kmlDataArray[5] = new kmlData("多摩平団地", 'date/kml/tamadaira.kml');
-		kmlDataArray[6] = new kmlData("常盤平団地", 'date/kml/tokiwadaira.kml');
-		kmlDataArray[7] = new kmlData("前原団地", 'date/kml/maehara.kml');
-		kmlDataArray[8] = new kmlData("高根台団地", 'date/kml/takanedai.kml');
-		kmlDataArray[9] = new kmlData("百草団地", 'date/kml/mogusa.kml');
-		kmlDataArray[10] = new kmlData("豊島５丁目団地", 'date/kml/toshima.kml');
-		kmlDataArray[11] = new kmlData("金沢シーサイドタウン並木団地", 'date/kml/kanazawa.kml');
-		kmlDataArray[12] = new kmlData("タウンハウス諏訪", 'date/kml/suwa.kml');
-		kmlDataArray[13] = new kmlData("木場公園三好住宅", 'date/kml/kiba.kml');
-		kmlDataArray[14] = new kmlData("大川端リバーシティ21", 'date/kml/kawabata.kml');
-		kmlDataArray[15] = new kmlData("多摩ニュータウン向陽台", 'date/kml/tama.kml');
-		kmlDataArray[16] = new kmlData("幕張ベイタウン", 'date/kml/makuhari.kml');
-		kmlDataArray[17] = new kmlData("東雲キャナルコートCODAN", 'date/kml/shinonome.kml');
+		kmlDataArray[0] = new kmlData("同潤会代官山アパート", 'data/kml/daikannyama.kml');
+		kmlDataArray[1] = new kmlData("都営高輪アパート", 'data/kml/takanawa.kml');
+		kmlDataArray[2] = new kmlData("阿佐ヶ谷住宅", 'data/kml/asagaya.kml');
+		kmlDataArray[3] = new kmlData("晴海台高層アパート", 'data/kml/harumi.kml');
+		kmlDataArray[4] = new kmlData("赤羽台団地", 'data/kml/akabane.kml');
+		kmlDataArray[5] = new kmlData("多摩平団地", 'data/kml/tamadaira.kml');
+		kmlDataArray[6] = new kmlData("常盤平団地", 'data/kml/tokiwadaira.kml');
+		kmlDataArray[7] = new kmlData("前原団地", 'data/kml/maehara.kml');
+		kmlDataArray[8] = new kmlData("高根台団地", 'data/kml/takanedai.kml');
+		kmlDataArray[9] = new kmlData("百草団地", 'data/kml/mogusa.kml');
+		kmlDataArray[10] = new kmlData("豊島５丁目団地", 'data/kml/toshima.kml');
+		kmlDataArray[11] = new kmlData("金沢シーサイドタウン並木団地", 'data/kml/kanazawa.kml');
+		kmlDataArray[12] = new kmlData("タウンハウス諏訪", 'data/kml/suwa.kml');
+		kmlDataArray[13] = new kmlData("木場公園三好住宅", 'data/kml/kiba.kml');
+		kmlDataArray[14] = new kmlData("大川端リバーシティ21", 'data/kml/kawabata.kml');
+		kmlDataArray[15] = new kmlData("多摩ニュータウン向陽台", 'data/kml/tama.kml');
+		kmlDataArray[16] = new kmlData("幕張ベイタウン", 'data/kml/makuhari.kml');
+		kmlDataArray[17] = new kmlData("東雲キャナルコートCODAN", 'data/kml/shinonome.kml');
 		//時間情報入りのKML
 		kmlDataArray[18] = new kmlData("タイムスパン", 'data/kml/timespan.kml');
 
@@ -441,7 +441,7 @@
 		// ========== ヘルプへリンク ==========
 
 		function help() {
-			window.open('https://github.com/wtnv-lab/cesiumGitHubPages');
+			window.open('https://www.google.co.jp/search?q=%E4%B8%96%E7%95%8C%E4%B8%80%E7%BE%8E%E3%81%97%E3%81%84%E5%9B%A3%E5%9C%B0%E5%9B%B3%E9%91%91&source=lnms&tbm=isch&sa=X&ved=0ahUKEwjh1aia76PUAhWIp5QKHYnxAboQ_AUICygC&biw=1440&bih=716');
 		}
 
 		// ========== 各種DIVのフェードイン・アウト ==========

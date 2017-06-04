@@ -1,154 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>幕張ベイタウン.kml</name>
-	<StyleMap id="msn_20120108_12_14_07080_1600">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_20120108_12_14_07080_1600</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_20120108_12_14_07080_1600</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_20120108_12_14_07080_1600">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/20120108_12_14_07080_1600.jpg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_20120108_12_14_07080_1600">
+	<name>makuhari.kml</name>
+	<Style id="sh_danti">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/20120108_12_14_07080_1600.jpg</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_IMG_10340">
+	<StyleMap id="msn_danti">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_IMG_10340</styleUrl>
+			<styleUrl>#sn_danti</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_IMG_10340</styleUrl>
+			<styleUrl>#sh_danti</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_IMG_10340">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/IMG_1034.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_1c79b9a10">
+	<Style id="sn_danti">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/1c79b9a1.jpg</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_1c79b9a10">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_1c79b9a10</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_1c79b9a10</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_IMG_10340">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/IMG_1034.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_1c79b9a10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/幕張ベイタウン/1c79b9a1.jpg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Folder>
-		<name>幕張ベイタウン</name>
-		<open>1</open>
-		<description>ヨーロッパ風のデザインに統一されている
-電柱がない街並み
-住民の街づくりの意識が高い</description>
-		<Placemark>
-			<name>幕張ベイタウン</name>
-			<LookAt>
-				<longitude>140.0454070004898</longitude>
-				<latitude>35.64176305000964</latitude>
-				<altitude>0</altitude>
-				<heading>2.854675048800763e-10</heading>
-				<tilt>0</tilt>
-				<range>1001.294639131173</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1995</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_1c79b9a10</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0454070004898,35.64176305000963,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>幕張ベイタウン</name>
-			<LookAt>
-				<longitude>140.0454070006456</longitude>
-				<latitude>35.64176305007825</latitude>
-				<altitude>0</altitude>
-				<heading>3.762500771530897e-10</heading>
-				<tilt>0</tilt>
-				<range>1001.294650511638</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1995</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_20120108_12_14_07080_1600</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0454070006456,35.64176305007825,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>幕張ベイタウン</name>
-			<LookAt>
-				<longitude>140.0454070006456</longitude>
-				<latitude>35.64176305007825</latitude>
-				<altitude>0</altitude>
-				<heading>3.762500771530897e-10</heading>
-				<tilt>0</tilt>
-				<range>1001.294650511638</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1995</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_IMG_10340</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0454070006456,35.64176305007825,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+	<Placemark>
+		<name></name>
+		<description><![CDATA[幕張ベイタウン<br>
+			ヨーロッパ風のデザインに統一されている<br>
+電柱がない街並み<br>
+住民の街づくりの意識が高い<br>
+<img style="max-width:500px;" src="data/images/makuhari/makuhari.png">]]>
+</description>
+		<LookAt>
+			<longitude>140.0454070004898</longitude>
+			<latitude>35.64176305000964</latitude>
+			<altitude>0</altitude>
+			<heading>2.854675048800763e-10</heading>
+			<tilt>0</tilt>
+			<range>1001.294639131173</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan id="ID">
+			<begin>1995</begin>
+			<end>2017</end>
+		</TimeSpan>
+		<styleUrl>#msn_danti</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>140.0454070004898,35.64176305000963,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>

@@ -1,157 +1,67 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>多摩平団地.kml</name>
-	<Style id="sh_b_0030">
+	<name> tamadaira.kml</name>
+	<Style id="sh_dantifavo">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/b_003.png</href>
+				<href>../icon/dantifavo.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_sub0211">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_sub0211</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_sub0211</styleUrl>
-		</Pair>
-	</StyleMap>
-	<StyleMap id="msn_b_0030">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_b_0030</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_b_0030</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_3c513123e9b7a99da5b72096058543d9">
+	<Style id="sn_dantifavo">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/3c513123e9b7a99da5b72096058543d9.png</href>
+				<href>../icon/dantifavo.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_3c513123e9b7a99da5b72096058543d9">
+	<StyleMap id="msn_dantifavo">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_3c513123e9b7a99da5b72096058543d9</styleUrl>
+			<styleUrl>#sn_dantifavo</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_3c513123e9b7a99da5b72096058543d9</styleUrl>
+			<styleUrl>#sh_dantifavo</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_sub0211">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/sub0211.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_sub0211">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/sub0211.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_3c513123e9b7a99da5b72096058543d9">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/3c513123e9b7a99da5b72096058543d9.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_b_0030">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/多摩平団地/b_003.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Folder>
-		<name>多摩平団地</name>
-		<open>1</open>
-		<description>日本住宅公団が造成
-津端修一設計
-団地内には多くの緑が見られた
+	<Placemark>
+		<name></name>
+		<description><![CDATA[多摩平団地<br>
+			日本住宅公団が造成<br>
+津端修一設計<br>
+団地内には多くの緑が見られた<br>
 
-初のテラスハウス
-現在の多摩平の森</description>
-		<Placemark>
-			<name>多摩平団地</name>
-			<LookAt>
-				<longitude>139.3792966799315</longitude>
-				<latitude>35.66662840342793</latitude>
-				<altitude>0</altitude>
-				<heading>1.569660031120107e-08</heading>
-				<tilt>0</tilt>
-				<range>1864.298787836548</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1958</begin>
-				<end>1997</end>
-			</TimeSpan>
-			<styleUrl>#msn_b_0030</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.3792966799315,35.66662840342793,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>多摩平団地</name>
-			<LookAt>
-				<longitude>139.3793020803394</longitude>
-				<latitude>35.6666302021883</latitude>
-				<altitude>0</altitude>
-				<heading>8.77695056010755e-09</heading>
-				<tilt>0</tilt>
-				<range>1912.032271804144</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1958</begin>
-				<end>1997</end>
-			</TimeSpan>
-			<styleUrl>#msn_sub0211</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.3793020803394,35.66663020218829,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>多摩平団地</name>
-			<LookAt>
-				<longitude>139.3793020803394</longitude>
-				<latitude>35.6666302021883</latitude>
-				<altitude>0</altitude>
-				<heading>8.77695056010755e-09</heading>
-				<tilt>0</tilt>
-				<range>1912.032271804144</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1958</begin>
-				<end>1997</end>
-			</TimeSpan>
-			<styleUrl>#msn_3c513123e9b7a99da5b72096058543d9</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.3793020803394,35.66663020218829,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+初のテラスハウス<br>
+現在の多摩平の森<br>
+<img style="max-width:500px;" src="data/images/tamadaira/多摩平団地.png">]]>
+</description>
+		<LookAt>
+			<longitude>139.3792966799315</longitude>
+			<latitude>35.66662840342793</latitude>
+			<altitude>0</altitude>
+			<heading>1.569660031120107e-08</heading>
+			<tilt>0</tilt>
+			<range>1864.298787836548</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan id="ID">
+			<begin>1958</begin>
+			<end>1997</end>
+		</TimeSpan>
+		<styleUrl>#msn_dantifavo</styleUrl>
+		<gx:balloonVisibility>1</gx:balloonVisibility>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.3792966799315,35.66662840342793,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>

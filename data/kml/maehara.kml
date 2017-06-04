@@ -1,154 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>前原団地.kml</name>
-	<StyleMap id="msn_img_22">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_img_22</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_img_22</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sh_img_22">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/img_2.jpeg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_前原団地0">
+	<name> maehara.kml</name>
+	<Style id="sn_danti">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/前原団地.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_img_10">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/img_1.jpeg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_img_10">
+	<StyleMap id="msn_danti">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_img_10</styleUrl>
+			<styleUrl>#sn_danti</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_img_10</styleUrl>
+			<styleUrl>#sh_danti</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_img_22">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/img_2.jpeg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_前原団地0">
+	<Style id="sh_danti">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/前原団地.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_前原団地0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_前原団地0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_前原団地0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_img_10">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/前原団地/img_1.jpeg</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Folder>
-		<name>前原団地</name>
-		<open>1</open>
-		<description>日本住宅公団が造成
-スターハウスの数が多い
-現在のアルビス前原などの高層住宅</description>
-		<Placemark>
-			<name>前原団地</name>
-			<LookAt>
-				<longitude>140.0216567159466</longitude>
-				<latitude>35.70216605884715</latitude>
-				<altitude>0</altitude>
-				<heading>-8.955012901264321e-05</heading>
-				<tilt>23.15923635154434</tilt>
-				<range>405.2664393402923</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1960</begin>
-				<end>2008</end>
-			</TimeSpan>
-			<styleUrl>#msn_前原団地0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0216567159465,35.70216605884715,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>前原団地</name>
-			<LookAt>
-				<longitude>140.0216563013155</longitude>
-				<latitude>35.70217803352605</latitude>
-				<altitude>0</altitude>
-				<heading>-8.971001899509073e-05</heading>
-				<tilt>23.01122032582545</tilt>
-				<range>417.2534065825049</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1960</begin>
-				<end>2008</end>
-			</TimeSpan>
-			<styleUrl>#msn_img_10</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0216563013155,35.70217803352605,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>前原団地</name>
-			<LookAt>
-				<longitude>140.0216563013155</longitude>
-				<latitude>35.70217803352605</latitude>
-				<altitude>0</altitude>
-				<heading>-8.971001899509073e-05</heading>
-				<tilt>23.01122032582545</tilt>
-				<range>417.2534065825049</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1960</begin>
-				<end>2008</end>
-			</TimeSpan>
-			<styleUrl>#msn_img_22</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>140.0216563013155,35.70217803352605,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+	<Placemark>
+		<name></name>
+		<description><![CDATA[前原団地<br>
+			日本住宅公団が造成<br>
+スターハウスの数が多い<br>
+現在のアルビス前原などの高層住宅<br>
+<img style="max-width:500px;" src="data/images/maehara/img_2.png">]]>
+</description>
+		<LookAt>
+			<longitude>140.0216567159466</longitude>
+			<latitude>35.70216605884715</latitude>
+			<altitude>0</altitude>
+			<heading>-8.955012901264321e-05</heading>
+			<tilt>23.15923635154434</tilt>
+			<range>405.2664393402923</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan id="ID">
+			<begin>1960</begin>
+			<end>2008</end>
+		</TimeSpan>
+		<styleUrl>#msn_danti</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>140.0216567159465,35.70216605884715,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>

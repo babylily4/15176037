@@ -1,155 +1,66 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>豊島５丁目団地.kml</name>
-	<StyleMap id="msn_toshima50090">
+	<name>toshima.kml</name>
+	<StyleMap id="msn_danti">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_toshima50090</styleUrl>
+			<styleUrl>#sn_danti</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_toshima50090</styleUrl>
+			<styleUrl>#sh_danti</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sn_toshima50090">
+	<Style id="sn_danti">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/toshima5009.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_豊島５丁目団地0">
+	<Style id="sh_danti">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/豊島５丁目団地.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<StyleMap id="msn_middle_11396709130">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_middle_11396709130</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_middle_11396709130</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_豊島５丁目団地0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/豊島５丁目団地.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_middle_11396709130">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/middle_1139670913.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sh_toshima50090">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/toshima5009.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_豊島５丁目団地0">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_豊島５丁目団地0</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_豊島５丁目団地0</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_middle_11396709130">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/豊島５丁目団地/middle_1139670913.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Folder>
-		<name>豊島５丁目団地</name>
-		<open>1</open>
-		<description>かつての日本住宅公団である、現UR都市機構が造成
-団地内には、ショッピングモール、公園、病院など様々な施設が揃っているため
-この団地内で多くのことが完結する
-現存する</description>
-		<Placemark>
-			<name>豊島５丁目団地１</name>
-			<LookAt>
-				<longitude>139.7527598834403</longitude>
-				<latitude>35.76657158958923</latitude>
-				<altitude>0</altitude>
-				<heading>-3.797545395233134e-08</heading>
-				<tilt>0</tilt>
-				<range>1178.626262036315</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1972</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_豊島５丁目団地0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.7527598834403,35.76657158958923,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>豊島５丁目団地</name>
-			<LookAt>
-				<longitude>139.7528299405252</longitude>
-				<latitude>35.76654173501893</latitude>
-				<altitude>0</altitude>
-				<heading>5.551423471559076e-08</heading>
-				<tilt>0</tilt>
-				<range>1473.480372767118</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1972</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_middle_11396709130</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.7528299405252,35.76654173501893,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>豊島５丁目団地３</name>
-			<LookAt>
-				<longitude>139.7527598833504</longitude>
-				<latitude>35.76657158843492</latitude>
-				<altitude>0</altitude>
-				<heading>-3.802796172956761e-08</heading>
-				<tilt>0</tilt>
-				<range>1172.628928895508</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1972</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_toshima50090</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.7527598833504,35.76657158843493,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+	<Placemark>
+		<name></name>
+		<description><![CDATA[豊島５丁目団地<br>
+			かつての日本住宅公団である、<br>
+			現UR都市機構が造成<br>
+団地内には、ショッピングモール、公園、病院など<br>
+様々な施設が揃っているため<br>
+この団地内で多くのことが完結する<br>
+現存する<br>
+<img style="max-width:500px;" src="data/images/toshima/toshima5009.png">]]>
+</description>
+		<LookAt>
+			<longitude>139.7528299405252</longitude>
+			<latitude>35.76654173501893</latitude>
+			<altitude>0</altitude>
+			<heading>5.551423471559076e-08</heading>
+			<tilt>0</tilt>
+			<range>1473.480372767118</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan id="ID">
+			<begin>1972</begin>
+			<end>2017</end>
+		</TimeSpan>
+		<styleUrl>#msn_danti</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.7528299405252,35.76654173501893,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>

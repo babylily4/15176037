@@ -1,154 +1,65 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <kml xmlns="http://www.opengis.net/kml/2.2" xmlns:gx="http://www.google.com/kml/ext/2.2" xmlns:kml="http://www.opengis.net/kml/2.2" xmlns:atom="http://www.w3.org/2005/Atom">
 <Document>
-	<name>常盤平団地.kml</name>
-	<StyleMap id="msn_ダウンロード1">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_ダウンロード1</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_ダウンロード1</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_ダウンロード1">
+	<name>tokiwadaira.kml</name>
+	<Style id="sn_danti">
 		<IconStyle>
 			<scale>1.1</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/ダウンロード.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_ダウンロード1">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/ダウンロード.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_8.tokiwadairacondominium0">
+	<StyleMap id="msn_danti">
 		<Pair>
 			<key>normal</key>
-			<styleUrl>#sn_8.tokiwadairacondominium0</styleUrl>
+			<styleUrl>#sn_danti</styleUrl>
 		</Pair>
 		<Pair>
 			<key>highlight</key>
-			<styleUrl>#sh_8.tokiwadairacondominium0</styleUrl>
+			<styleUrl>#sh_danti</styleUrl>
 		</Pair>
 	</StyleMap>
-	<Style id="sh_e0219736_184250220">
+	<Style id="sh_danti">
 		<IconStyle>
 			<scale>1.3</scale>
 			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/e0219736_18425022.png</href>
+				<href>../icon/danti.png</href>
 			</Icon>
 		</IconStyle>
+		<ListStyle>
+		</ListStyle>
 	</Style>
-	<Style id="sh_8.tokiwadairacondominium0">
-		<IconStyle>
-			<scale>1.3</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/8.tokiwadairacondominium.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<StyleMap id="msn_e0219736_184250220">
-		<Pair>
-			<key>normal</key>
-			<styleUrl>#sn_e0219736_184250220</styleUrl>
-		</Pair>
-		<Pair>
-			<key>highlight</key>
-			<styleUrl>#sh_e0219736_184250220</styleUrl>
-		</Pair>
-	</StyleMap>
-	<Style id="sn_8.tokiwadairacondominium0">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/8.tokiwadairacondominium.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Style id="sn_e0219736_184250220">
-		<IconStyle>
-			<scale>1.1</scale>
-			<Icon>
-				<href>/Applications/MAMP/htdocs/cesium03/data/images/常盤平団地/e0219736_18425022.png</href>
-			</Icon>
-		</IconStyle>
-	</Style>
-	<Folder>
-		<name>常盤平団地</name>
-		<open>1</open>
-		<description>日本住宅公団が造成
-ショッピングセンター、病院、小学校などを有したため当時はとても注目された
-現在も残っているが、高齢化が問題視されている</description>
-		<Placemark>
-			<name>常盤平団地</name>
-			<LookAt>
-				<longitude>139.9506156467892</longitude>
-				<latitude>35.79940786621066</latitude>
-				<altitude>0</altitude>
-				<heading>8.167789099741824e-08</heading>
-				<tilt>0</tilt>
-				<range>1169.654440155009</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1959</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_8.tokiwadairacondominium0</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.9506156467892,35.79940786621066,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>常盤平団地</name>
-			<LookAt>
-				<longitude>139.9506156465861</longitude>
-				<latitude>35.79940786666708</latitude>
-				<altitude>0</altitude>
-				<heading>8.155906547451877e-08</heading>
-				<tilt>0</tilt>
-				<range>1169.654457703042</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1959</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_e0219736_184250220</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.9506156465861,35.79940786666708,0</coordinates>
-			</Point>
-		</Placemark>
-		<Placemark>
-			<name>常盤平団地</name>
-			<LookAt>
-				<longitude>139.9506156465861</longitude>
-				<latitude>35.79940786666708</latitude>
-				<altitude>0</altitude>
-				<heading>8.155906547451877e-08</heading>
-				<tilt>0</tilt>
-				<range>1169.654457703042</range>
-				<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
-			</LookAt>
-			<TimeSpan id="ID">
-				<begin>1959</begin>
-				<end>2017</end>
-			</TimeSpan>
-			<styleUrl>#msn_ダウンロード1</styleUrl>
-			<Point>
-				<gx:drawOrder>1</gx:drawOrder>
-				<coordinates>139.9506156465861,35.79940786666708,0</coordinates>
-			</Point>
-		</Placemark>
-	</Folder>
+	<Placemark>
+		<name></name>
+		<description><![CDATA[常盤平団地<br>
+			日本住宅公団が造成<br>
+ショッピングセンター、病院、小学校などを<br>
+有したため当時はとても注目された<br>
+現在も残っているが、<br>
+高齢化が問題視されている<br>
+<img style="max-width:500px;" src="data/images/tokiwadai/tokiwadaira.png">>]]>
+</description>
+		<LookAt>
+			<longitude>139.9506156467892</longitude>
+			<latitude>35.79940786621066</latitude>
+			<altitude>0</altitude>
+			<heading>8.167789099741824e-08</heading>
+			<tilt>0</tilt>
+			<range>1169.654440155009</range>
+			<gx:altitudeMode>relativeToSeaFloor</gx:altitudeMode>
+		</LookAt>
+		<TimeSpan id="ID">
+			<begin>1959</begin>
+			<end>2017</end>
+		</TimeSpan>
+		<styleUrl>#msn_danti</styleUrl>
+		<Point>
+			<gx:drawOrder>1</gx:drawOrder>
+			<coordinates>139.9506156467892,35.79940786621066,0</coordinates>
+		</Point>
+	</Placemark>
 </Document>
 </kml>
